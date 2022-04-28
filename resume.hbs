@@ -11,6 +11,14 @@
 
   <style>
     {{> css}}
+      .profile-item .info {
+          left: unset;
+          /*padding-right: unset;*/
+          display: inline-block;
+      }
+      .profile-item .icon {
+          display: inline-block;
+      }
   </style>
 
   <meta name="HandheldFriendly" content="True">
@@ -117,7 +125,9 @@
                   <li class="profile-item">
                     <a href="{{url}}" target="_blank" rel="noreferrer noopener">
                       <span class="icon"><i aria-hidden="true" class="icon-lg icon-{{normalizeNetwork network}} network-{{normalizeNetwork network}}"></i></span>
-                      <span class="info text-muted hidden-sm hidden-md hidden-lg">{{network}}</span>
+                      {{#if username}}
+                          <span class="info text-muted">{{username}}</span>
+                      {{/if}}
                     </a>
                   </li>
                 {{/each}}
@@ -201,7 +211,7 @@
                       {{#if highlights}}
                         <ul class="detail-highlights">
                           {{#each highlights}}
-                            <li>{{.}}</li>
+                            <li>{{{.}}}</li>
                           {{/each}}
                         </ul>
                       {{/if}}
