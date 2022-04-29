@@ -33,8 +33,4 @@ jobs:
       - uses: JS-DevTools/npm-publish@v1
         if: steps.commit.outputs.exist_code == 0
         with:
-          access: public
           token: ${{ secrets.NPM_TOKEN }}
-#      - run: npm publish
-#        env:
-#          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
