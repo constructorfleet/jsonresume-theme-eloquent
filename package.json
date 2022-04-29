@@ -1,17 +1,17 @@
 {
-  "name": "jsonresume-theme-eloquent",
+  "name": "jsonresume-theme-eloquent-mod",
   "version": "4.1.0",
-  "description": "An eloquent JSON Resume theme: fluent, persuasive, for developers",
-  "author": "Thibaud Colas",
+  "description": "A mod of the eloquent JSON Resume theme: fluent, persuasive, for developers",
+  "author": "Teagan Glenn",
   "license": "MIT",
   "main": "index.js",
-  "homepage": "https://github.com/thibaudcolas/jsonresume-theme-eloquent",
+  "homepage": "https://github.com/constructorfleet/jsonresume-theme-eloquent-mod",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thibaudcolas/jsonresume-theme-eloquent.git"
+    "url": "https://github.com/constructorfleet/jsonresume-theme-eloquent-mod.git"
   },
   "bugs": {
-    "url": "https://github.com/thibaudcolas/jsonresume-theme-eloquent/issues"
+    "url": "https://github.com/constructorfleet/jsonresume-theme-eloquent-mod/issues"
   },
   "engines": {
     "node": ">=4.0"
@@ -19,7 +19,7 @@
   "keywords": [
     "jsonresume",
     "jsonresume-theme",
-    "jsonresume-theme-eloquent",
+    "jsonresume-theme-eloquent-mod",
     "theme",
     "eloquent",
     "elegant",
