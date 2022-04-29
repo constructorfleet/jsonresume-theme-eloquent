@@ -30,7 +30,5 @@ jobs:
           else
             echo ::set-output name=exit_code::1
           fi
-      - uses: JS-DevTools/npm-publish@v1
+      - run: npm config set '//registry.npmjs.org/:_authToken' "${{ secrets.NPM_TOKEN }}" && npm publish
         if: steps.commit.outputs.exist_code == 0
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
