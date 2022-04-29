@@ -30,5 +30,5 @@ node_modules
 # Resume-related
 test/resume.pdf
 test/old-resume.html
+.idea/
 
-dist/
