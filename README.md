@@ -2,7 +2,9 @@
 
 An eloquent JSON Resume theme: fluent, persuasive, for developers.
 
-![Theme screenshot](raw/theme-screenshot.png)
+[![Theme screenshot](raw/theme-screenshot.png)](https://constructorfleet.github.io/jsonresume-theme-eloquent-mod/resume.html)
+
+> [Online demo](https://constructorfleet.github.io/jsonresume-theme-eloquent-mod/resume.html)
 
 ## Features
 
