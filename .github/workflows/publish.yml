@@ -35,6 +35,13 @@ jobs:
         with:
           access: public
           token: ${{ secrets.NPM_TOKEN }}
+  update_demo:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@v2
       - uses: kelvintaywl/action-jsonresume-export@v1
         name: Export resume as HTML
         with:
