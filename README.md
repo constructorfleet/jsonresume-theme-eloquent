@@ -1,10 +1,10 @@
-# Eloquent [![npm](https://img.shields.io/npm/v/jsonresume-theme-eloquent.svg)](https://www.npmjs.com/package/jsonresume-theme-eloquent) [![Build Status](https://img.shields.io/travis/thibaudcolas/jsonresume-theme-eloquent.svg)](https://travis-ci.org/thibaudcolas/jsonresume-theme-eloquent)
+# Eloquent-Mod [![npm](https://img.shields.io/npm/v/jsonresume-theme-eloquent-mod.svg)](https://www.npmjs.com/package/jsonresume-theme-eloquent-mod)
 
 An eloquent JSON Resume theme: fluent, persuasive, for developers. [See it live](https://rawgit.com/thibaudcolas/jsonresume-theme-eloquent/master/test/resume.html).
 
 [![Theme screenshot](raw/theme-screenshot.png)](https://rawgit.com/thibaudcolas/jsonresume-theme-eloquent/master/test/resume.html)
 
-> [Online demo](https://rawgit.com/thibaudcolas/jsonresume-theme-eloquent/master/test/resume.html)
+> [Online demo](https://rawgit.com/constructorfleet/jsonresume-theme-eloquent-mod/master/test/resume.html)
 
 ## Features
 
@@ -25,7 +25,7 @@ An eloquent JSON Resume theme: fluent, persuasive, for developers. [See it live]
 Install the theme,
 
 ```sh
-npm install --save jsonresume-theme-eloquent
+npm install --save jsonresume-theme-eloquent-mod
 ```
 
 Then use it:
@@ -33,7 +33,7 @@ Then use it:
 ```js
 'use strict';
 
-var theme = require('jsonresume-theme-eloquent');
+var theme = require('jsonresume-theme-eloquent-mod');
 
 var resume = require('./resume.json');
 process.stdout.write(theme.render(resume));
@@ -44,8 +44,8 @@ process.stdout.write(theme.render(resume));
 Install the project with:
 
 ```sh
-git clone git@github.com:thibaudcolas/jsonresume-theme-eloquent.git
-cd jsonresume-theme-eloquent
+git clone git@github.com:constructorfleet/jsonresume-theme-eloquent-mod.git
+cd jsonresume-theme-eloquent-mod
 npm install
 ./.githooks/deploy
 # To actively work on the theme.
