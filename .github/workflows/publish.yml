@@ -26,7 +26,7 @@ jobs:
             git add package.json
             git add package-lock.json
             git commit -m "[ci skip] chore(package.json): update package version"
-            git push
+            git push origin HEAD:master
             echo ::set-output name=exit_code::0
           else
             echo ::set-output name=exit_code::1
