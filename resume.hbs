@@ -285,7 +285,7 @@
                       {{#if highlights}}
                         <ul class="detail-highlights">
                           {{#each highlights}}
-                            <li>{{.}}</li>
+                            <li>{{{.}}}</li>
                           {{/each}}
                         </ul>
                       {{/if}}
@@ -362,7 +362,7 @@
 
                       {{#if courses}}
                         <ul class="list-inline labels">
-                          {{#courses}}<li class="label label-keyword">{{.}}</li>{{/courses}}
+                          {{#courses}}<li class="label label-keyword">{{{.}}}</li>{{/courses}}
                         </ul>
                       {{/if}}
                     </div>
@@ -407,7 +407,7 @@
 
                       {{#if keywords}}
                         <ul class="list-inline labels">
-                          {{#keywords}}<li class="label label-keyword">{{.}}</li>{{/keywords}}
+                          {{#keywords}}<li class="label label-keyword">{{{.}}}</li>{{/keywords}}
                         </ul>
                       {{/if}}
                     </div>
@@ -527,7 +527,7 @@
                     <ul class="list-unstyled">
                         {{#each resume.projects}}
                             <li class="detail-item row" id="{{itemID 'proj' @index ../resume.projects.length}}" itemprop="memberOf" itemscope itemtype="http://schema.org/SoftwareApplication">
-                                <div class="col-sm-9 detail-item-content">
+                                <div class="ådetail-item-content">
                                     <a class="anchor-link item-anchor" href="#{{itemID 'project' @index ../resume.projects.length}}">#</a>
                                     <h4>
                                         {{#if website}}
@@ -542,7 +542,7 @@
                                     {{#if highlights}}
                                         <ul class="detail-highlights">
                                             {{#each highlights}}
-                                                <li>{{.}}</li>
+                                                <li>{{{.}}}</li>
                                             {{/each}}
                                         </ul>
                                     {{/if}}
@@ -571,7 +571,7 @@
 
                       {{#if keywords}}
                         <ul class="list-inline labels">
-                          {{#keywords}}<li class="label label-keyword">{{.}}</li>{{/keywords}}
+                          {{#keywords}}<li class="label label-keyword">{{{.}}}</li>{{/keywords}}
                         </ul>
                       {{/if}}
                     </div>
