@@ -28,7 +28,7 @@ node_modules
 .lock-wscript
 
 # Resume-related
-test/resume.pdf
-test/old-resume.html
+docs/resume.pdf
+docs/old-resume.html
 .idea/
 
