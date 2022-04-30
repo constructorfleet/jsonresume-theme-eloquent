@@ -1,10 +1,8 @@
 # Eloquent-Mod [![npm](https://img.shields.io/npm/v/jsonresume-theme-eloquent-mod.svg)](https://www.npmjs.com/package/jsonresume-theme-eloquent-mod)
 
-An eloquent JSON Resume theme: fluent, persuasive, for developers. [See it live](https://rawgit.com/thibaudcolas/jsonresume-theme-eloquent/master/test/resume.html).
+An eloquent JSON Resume theme: fluent, persuasive, for developers.
 
-[![Theme screenshot](raw/theme-screenshot.png)](https://rawgit.com/thibaudcolas/jsonresume-theme-eloquent/master/test/resume.html)
-
-> [Online demo](https://rawgit.com/constructorfleet/jsonresume-theme-eloquent-mod/master/test/resume.html)
+![Theme screenshot](raw/theme-screenshot.png)
 
 ## Features
 
